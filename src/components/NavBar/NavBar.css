@@ -110,24 +110,4 @@
         display: none;
     }
 }
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   
-  .menu-cart-wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    transition: max-height 0.5s ease-out;
-  }
-  
-  .menu-cart-wrapper ul.menu {
-    margin-top: 20px; /* Espacio entre el menú y el carrito */
-  }
-  
-  .side-menu:checked ~ .nav .menu-cart-wrapper {
-    max-height: 100%;
-  }
