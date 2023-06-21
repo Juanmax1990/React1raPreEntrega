@@ -31,8 +31,10 @@ const NavBar = ({ logo }) => {
               <li>
                 <a href="#">Contacto</a>
               </li>
+              <li>
+                <CartWidget />
+              </li>
             </ul>
-            <CartWidget />
           </div>
         </nav>
       </div>
